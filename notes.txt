@@ -13,3 +13,11 @@ FEATURES OF NESTJS
 7- Great documentation.
 8- Built for large scale enterprise applications.
 
+THREE MAIN COMPONENTS OF NESTJS
+
+1- Controllers
+2- Providers
+3- Modules
+
+
+
