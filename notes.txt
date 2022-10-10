@@ -1,0 +1,5 @@
+WHAT IS NESTJS?
+1- It is for building efficient, scalable nodejs server side applications.
+2- It uses progressive javascript, and supports typescript.
+3-It combines elements of OOP, FP and FRP(Functional Reactive Programming).
+
