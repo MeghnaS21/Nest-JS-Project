@@ -19,5 +19,22 @@ THREE MAIN COMPONENTS OF NESTJS
 2- Providers
 3- Modules
 
+FOLDER/DIRECTORY STRUCTURE
+
+1-Package.json - similar to one in react, contains lots of scripts, and dependencies
+2-tsconfig.json - Typscript Configuration. We all know that nestjs has the power of nodejs and typescript. 
+3-nest-cli.json - whenever you use nest command, nest cli json will create different files in src directory. 
+4-prettierrc, gitnore, eslintrc.js - common things
+5-Test directory - contains jest ztesting framework.
+6-src directory - Like react starts with index.js, nest also starts with main.ts
+   i) main.ts - to load the app.module and start the server
+   ii) app.module.ts - Simple class. Whenever you want to create any js class as module,    then add @Module() decorator to it.
+   iii) app.controller.ts - Normal class. But to make it as a controller, just add the   @Controller()   decorator. 
+   iv) app.service.ts - Normal class with decorator @Injectable()
+These controllers, add meta data to the class and defines the purpose of that class.
+   v) app.controller.spec.ts - testing file for this app.controller.ts
+
+Hello world is comming from app.service.ts.
+Restart the server - use this command :---->> npm run start:dev
 
 
