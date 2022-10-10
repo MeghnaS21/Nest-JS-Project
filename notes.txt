@@ -3,3 +3,13 @@ WHAT IS NESTJS?
 2- It uses progressive javascript, and supports typescript.
 3-It combines elements of OOP, FP and FRP(Functional Reactive Programming).
 
+FEATURES OF NESTJS
+1-Nestjs was created to help developers create monoliths and microservices.
+2-It's simple to use, quick to learn and easy to apply.
+3- It leverages Typescript - strongly typed language which is a superset of javascript.
+4- Powerful cli to boost productivity and ease of development.
+5- It supports dozens of nest-specific modules that help you easlity integarte with common technologies concepts like Type ORM, Mongoose, GraphQL, Logging, Validation, Caching, WebSockets and much more.
+6- Easy unit-testing applications.
+7- Great documentation.
+8- Built for large scale enterprise applications.
+
