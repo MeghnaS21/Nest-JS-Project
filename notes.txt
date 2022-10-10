@@ -37,4 +37,30 @@ These controllers, add meta data to the class and defines the purpose of that cl
 Hello world is comming from app.service.ts.
 Restart the server - use this command :---->> npm run start:dev
 
+WHAT IS NEST MODULES?
+
+1- @Module should come from @nestjs/common
+2-  Pass an empty object inside it, to make it as a module.
+     Example :- @Module({})
+3- A class annotated/decorated with @Module() decorator.
+4- Each app has a root module.Which Nest uses as a starting point to resolve the      application's structure and relationships.
+5- It's highly recommended to use multiple modules to organize your application components.
+6- The @Module() decorator provides metadata that Nest makes use of to organize the application structure.
+
+
+
+APPLICATION MODULE - Root module
+Note: In app module we have to register all other modules of our nest js application.
+
+1-Users Module
+2- Orders Module
+3- Chat Module
+4- Feature Module 1
+5- Feature Module 2
+6- Feature Module 3
+
+
+
+
+
 
