@@ -75,6 +75,7 @@ NEST CLI
  with the command 
 nest g controller controller_name
 nest g module module_name
+nest g s service name
 
 
 
