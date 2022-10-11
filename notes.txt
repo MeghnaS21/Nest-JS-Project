@@ -60,6 +60,24 @@ Note: In app module we have to register all other modules of our nest js applica
 6- Feature Module 3
 
 
+NEST CONTROLLERS
+
+1-Controllers purpose is to receive specific requests for the application.
+2-Controller then handles the request and returns the appropriate response.
+
+
+NEST CLI
+
+1- it is an awesome tool that will help you to do the below tasks:-
+     i) Create the custom controller
+    ii) Create the custom module
+    iii) Update the app module by registering the custom modules
+ with the command 
+nest g controller controller_name
+nest g module module_name
+
+
+
 
 
 
