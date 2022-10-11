@@ -77,6 +77,13 @@ nest g controller controller_name
 nest g module module_name
 nest g s service name
 
+PROVIDERS
+
+1- Providers are fundamental to Nest.
+2- providers are plain javascript classes that are declared as providers in a module.
+3- Classes such as services, repositories, helpers can be treated as providers simply by adding Nest's @Injectable() decorator.
+4-Providers can be injected into a class through the constructor, and nest will handle resolving the dependencies, making dependency management extremely easy.
+
 
 
 
